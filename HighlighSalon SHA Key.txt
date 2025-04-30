@@ -1,0 +1,9 @@
+> Task :react-native-vector-icons:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Anjan\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: D9:70:59:84:8C:28:24:20:18:ED:58:B6:CB:C6:31:F6
+SHA1: 38:73:45:03:8B:F3:CF:37:F1:D5:68:0A:10:24:79:18:56:D4:80:96
+SHA-256: 3A:B8:9C:A6:F8:20:BC:6F:E7:0B:63:23:68:D7:F7:92:55:F2:90:CC:4F:6E:41:9E:D6:44:13:7F:E6:DE:69:00
+Valid until: Monday, 8 January, 2052
