@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22690541788",
+    "project_id": "notifications-68604",
+    "storage_bucket": "notifications-68604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22690541788:android:c166d0ec288da47c0a0419",
+        "android_client_info": {
+          "package_name": "com.highlightsalon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOjkB05jCgm4uV_F0Gp_BUAdR8Zkn1NVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

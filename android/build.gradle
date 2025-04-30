@@ -12,10 +12,27 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        // Android Gradle plugin
+        classpath("com.android.tools.build:gradle:8.0.2")
+
+        // React Native Gradle plugin
         classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+
+        // Kotlin Gradle plugin
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+
+        // Firebase Google services Gradle plugin
+        classpath("com.google.gms:google-services:4.4.2")
     }
 }
 
 apply plugin: "com.facebook.react.rootproject"
+// The line below was commented out in your original snippet. It's unnecessary and incorrect syntax to try and apply the plugin here.
+// apply plugin: "com.google.gms.google-services:4.4.2" apply false
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
